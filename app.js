@@ -14,12 +14,12 @@ app.get("/", (req, res) => {
       <link rel="stylesheet" href="/dealer_choice.css" />
     </head>
     <body>
-        <h1>Cats Friends</h1>
+        <header><img id = "logo" src="/logo.png"/>Cat Friends</header>
         <div class = "container">
             ${catsList.map((cat)=>
                 `<p class = "cat">
                     <a href = /cats/${cat.name}>
-                        <h4> ${cat.name}</h4>
+                        <h5> ${cat.name}</h5>
                     </a>
                 </p>`
             ).join("")}
@@ -37,14 +37,18 @@ app.get('/cats/:name', (req, res) => {
     console.log(cat);
     const html = `
     <html>
+    <head>
+      <title>Cat</title>
+      <link rel="stylesheet" href="/dealer_choice.css" />
+    </head>
     <body>
       <div class='news-item'>
-        <a href='/'><header>Cat Friends</header></a>
+        <header><a href='/'><img id = "logo" src="/logo.png"/></a>Cat Friends</header>
         <p>
-          <h1>
-            My name is ${cat.name},I am a ${cat.breed}, I like to eat ${cat.favouriteFood}.
-          </h1>
-          <img src="/${cat.name}.jpg"/>
+          <div id = ${cat.name} class = "description">
+            My name is ${cat.name}, I am a ${cat.breed}, I like to eat ${cat.favouriteFood}.
+          </div>
+          <img class = "photos" src="/${cat.name}.jpg"/>
         </p>
       </div>
   

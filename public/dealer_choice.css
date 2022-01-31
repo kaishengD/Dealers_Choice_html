@@ -1,19 +1,53 @@
-h1{
+header{
     color: saddlebrown;
     background-color: gold;
     text-align: center;
     border: 5px solid gray;
+    border-radius: 8px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5rem;
 }
 .container{
     display: flex;
     justify-content: space-around;
+    border: black;
+    background-color: rgb(178, 230, 252);
+    border: gray dashed;
+    border-radius: 5px;
+    margin: auto;
 }
 
 .cat{
     border: black
 }
 
-img {
+.photos {
     max-width: 100%;
-    height: auto;
+    height: 100vh;
+    margin: auto;
+    display: block;
+    border: solid 2px gold;
   }
+
+  .description{
+      font-family: courier;
+      text-align: center;
+      border: burlywood dashed;
+      margin-bottom: 0.2rem;
+      background-color: rgb(178, 230, 252);
+      font-weight: bold;
+  }
+
+#logo{
+    width: 20px;
+    height: 20px;
+    opacity: 50%;
+}
+
+body{
+    margin: 4rem;
+    background-image: url("background.png");
+    margin:  1rem;
+}

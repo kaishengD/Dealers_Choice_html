@@ -20,7 +20,7 @@ const catdata =[
     {name: 'Cheessball',
     DOB: '7-28-2020',
     breed: 'siberian cat',
-    favouriteFood: '...under investigation ',
+    favouriteFood: '...still under investigation',
     color: 'white'
     }
 ]
