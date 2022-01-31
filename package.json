@@ -1,0 +1,26 @@
+{
+  "name": "dealer_choice",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaishengD/Dealers_choice_html.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaishengD/Dealers_choice_html/issues"
+  },
+  "homepage": "https://github.com/kaishengD/Dealers_choice_html#readme",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}

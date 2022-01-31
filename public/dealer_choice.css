@@ -1,0 +1,19 @@
+h1{
+    color: saddlebrown;
+    background-color: gold;
+    text-align: center;
+    border: 5px solid gray;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cat{
+    border: black
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
