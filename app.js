@@ -14,14 +14,10 @@ app.get("/", (req, res) => {
       <link rel="stylesheet" href="/dealer_choice.css" />
     </head>
     <body>
-        <header><img id = "logo" src="/logo.png"/>Cat Friends</header>
+        <header id = "main-page"><img id = "logo" src="/logo.png"/>Cat Friends</header>
         <div class = "container">
             ${catsList.map((cat)=>
-                `<p class = "cat">
-                    <a href = /cats/${cat.name}>
-                        <h5> ${cat.name}</h5>
-                    </a>
-                </p>`
+                `<h5 class = "cat"><a href = /cats/${cat.name}> ${cat.name} </a></h5>`
             ).join("")}
         </div>
     </body>

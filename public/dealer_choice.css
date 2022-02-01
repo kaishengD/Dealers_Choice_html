@@ -1,31 +1,39 @@
 header{
+    width: 70%;
     color: saddlebrown;
     background-color: gold;
     text-align: center;
-    border: 5px solid gray;
+    border: 5px solid rgb(224, 69, 95);
     border-radius: 8px;
     font-weight: bold;
     display: flex;
     justify-content: center;
-    margin-bottom: 0.5rem;
+    margin: auto;
+    margin-bottom: 0.2rem;
 }
 .container{
     display: flex;
-    justify-content: space-around;
-    border: black;
+    width: 70%;
+    justify-content: space-between;
+    flex-direction: row;
     background-color: rgb(178, 230, 252);
-    border: gray dashed;
     border-radius: 5px;
     margin: auto;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .cat{
-    border: black
+    border: dashed rgb(79, 130, 226);
+    margin: 0;
 }
+/* .cat{
+    
+} */
 
 .photos {
-    max-width: 100%;
-    height: 100vh;
+    max-width: 70%;
+    height: 90vh;
     margin: auto;
     display: block;
     border: solid 2px gold;
@@ -33,8 +41,11 @@ header{
 
   .description{
       font-family: courier;
+      width: 70%;
+      font-size: small;
       text-align: center;
       border: burlywood dashed;
+      margin: auto;
       margin-bottom: 0.2rem;
       background-color: rgb(178, 230, 252);
       font-weight: bold;
@@ -44,6 +55,10 @@ header{
     width: 20px;
     height: 20px;
     opacity: 50%;
+}
+
+#main-page{
+    margin-top: 20%;
 }
 
 body{
